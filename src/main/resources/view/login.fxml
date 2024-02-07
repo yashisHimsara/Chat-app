@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="461.0" prefWidth="481.0" style="-fx-background-color: #008b8b;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.LoginController">
+   <children>
+      <JFXButton layoutX="189.0" layoutY="388.0" onAction="#btnSigninOnAction" prefHeight="49.0" prefWidth="105.0" style="-fx-background-color: #004040;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font></JFXButton>
+      <TextField fx:id="txtUser" layoutX="213.0" layoutY="281.0" prefHeight="34.0" prefWidth="230.0" style="-fx-background-color: ff;" />
+      <Line endX="129.0" layoutX="316.0" layoutY="312.0" startX="-100.0" />
+      <ImageView fitHeight="122.0" fitWidth="114.0" layoutX="334.0" layoutY="74.0">
+         <image>
+            <Image url="@../../../../../../../My%20Work/Chat-app/src/main/resources/image/download.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="24.0" layoutY="288.0" text="Enter your Name :-">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="116.0" text="Login from" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
